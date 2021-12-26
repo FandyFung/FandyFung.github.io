@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>sy2-4</title>
+</head>
+
+<body>
+	<form action="" method="post" name="form1">
+		<h2 align="center">用户注册</h2>
+		<table align="center" width="500" border="1" bordercolor="blue" cellpadding="3" cellspacing="2" bgcolor="#66CCFF">
+			<tr>
+				<th height="20" width="100">姓名</th>
+				<th height="20" width="400" align="left">
+					<input type="text" name="username" size="12" maxlength="12"/>
+				</th>
+			</tr>
+			<tr>
+				<th height="20" width="100">密码</th>
+				<th height="20" width="400" align="left">
+					<input type="password" name="pass" size="12" maxlength="12"/>*
+				</th>
+			</tr>
+			<tr>
+				<th height="20" width="100">手机号</th>
+				<th height="20" width="400" align="left">
+					<input type="tel" name="phone" size="12" maxlength="12"/>
+				</th>
+			</tr>
+			<tr>
+				<th height="20" width="100">邮箱</th>
+				<th height="20" width="400" align="left">
+					<input type="email" name="mail" size="25" maxlength="25" value="javin@example.com"/>
+				</th>
+			</tr>
+			<tr>
+				<th height="20" width="100">性别</th>
+				<th height="20" width="400" align="left">
+					<input type="radio" name="sex" value="男"/>男
+					<input type="radio" name="sex" value="女"/>女
+				</th>
+			</tr>
+			<tr>
+				<th height="20" width="100">技术</th>
+				<th height="20" width="400" align="left">
+					<input type="checkbox" name="skill" value="Java"/>Java
+					<input type="checkbox" name="skill" value="Jsp"/>Jsp
+					<input type="checkbox" name="skill" value="Servlet"/>Servlet
+				</th>
+			</tr>
+			<tr>
+				<th height="20" width="100">网站</th>
+				<th height="20" width="400" align="left">
+					<input type="url" name="website" size="25" maxlength="25" value="http://www.jiawin.com"/>
+				</th>
+			</tr>
+			<tr>
+				<th height="20" width="100">日期</th>
+				<th height="20" width="400" align="left">
+					<input type="date"/ name="date" size="12"/>
+				</th>
+			</tr>
+			<tr>
+				<th height="20" width="100">喜欢的颜色</th>
+				<th height="20" width="400" align="left">
+					<input type="color" name="color"/>
+				</th>
+			</tr>
+			<tr>
+				<th height="20" width="100">国家</th>
+				<th height="20" width="400" align="left">
+					<select size="1" name="country">
+						<option value="中国" selected="selected">中国</option>
+						<option value="美国">美国</option>
+						<option value="英国">英国</option>
+						<option value="法国">法国</option>
+						<option value="德国">德国</option>
+						<option value="韩国">韩国</option>
+						<option value="其他国家">其他国家</option>
+					</select>
+				</th>
+			</tr>
+			<tr>
+				<th height="20" width="100">留言</th>
+				<th height="20" width="400" align="left">
+					<textarea name="message" rows="10" cols="50">美丽的HTML5表单，世界更加完美。</textarea>
+				</th>
+			</tr>
+			<tr>
+                <td height="20" colspan="2" align="center">
+                    <input type="submit" name="submit" value="提交"/>
+                    <input type="reset" name="reset" value="重写"/>
+                </td>
+            </tr>
+		</table>
+	</form>
+</body>
+</html>

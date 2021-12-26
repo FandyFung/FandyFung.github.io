@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+.box{
+	background-color:#BDBDBD;
+	width:700px;
+	height:900px;
+	text-align:center;}
+.header{border:2px #F7FE2E solid;
+	width:600px;
+	height:200px;
+	margin:30px auto;
+	padding:5px;
+	background-color:red;
+	text-align:left;
+	color:#F7FE2E;}
+#logo{border: 3px black solid;
+	background-color:#F7FE2E;
+	width:150px;
+	height:30px;
+	color:black;
+	text-align:center;
+	padding:10px;
+	margin-left:30px;
+	margin-top:20px;	
+	float:left;}
+#banner{color:white;
+	width:250px;
+	height:30px;		
+	background-color:blue;	
+	border:3px black solid;
+	text-align:center;
+	padding:10px;
+	margin-right:50px;
+	margin-top:20px;
+	float:right}
+#menu{width:520px;
+	height:30px;
+	background-color:#088A08;
+	border:3px black solid;
+	padding:10px;
+	text-align:left;
+	margin-top:110px;
+	margin-left:30PX;
+	color:white;
+	float:none;}
+.main{width: 600px;
+	height: 500px;
+	background-color:#088A4B; 
+	text-align:left;
+	color: white;
+	border: 3px #F7FE2E solid;
+	padding: 5px;
+	margin: 30px auto;}
+p{margin:0px;}
+#sidebar{width: 200px;
+	height: 400px;
+	background-color: blue;
+	color: white;
+	border: 3px white solid;
+	margin-top: 10px;
+	margin-left: 10px;
+	text-align: center;
+	padding: 10px;
+	float: left;}
+#content{width: 300px;
+	height: 400px;
+	background-color: #2ECCFA;
+	border: 3px white solid;
+	margin-top:10px;
+	margin-right: 10px;
+	text-align: left;
+	padding: 10px;
+	float: right}
+.footer{width: 600px;
+	height: 30px;
+	background-color: red;
+	border: 3px #F7FE2E solid;
+	margin: 20px auto;
+	color: white;
+	text-align: left;
+	padding: 10px;}
